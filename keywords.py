@@ -56,7 +56,7 @@ def generate_tags(client, image_path):
                   "Do not include introductory words and avoid enumerations."
 
     response = client.chat.completions.create(
-        model="gpt-4-vision-preview",
+        model="gpt-4o",
         messages=[
             {
             "role": "user",
